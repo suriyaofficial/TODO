@@ -1,0 +1,107 @@
+* {
+  font-family: Helvetica;
+  
+}
+ 
+ 
+.headerStyle {
+  text-align: center;
+  background: linear-gradient(#00398f, #03929c);
+  padding: 0px;
+  color: antiquewhite;
+}
+ 
+.outFormStyle {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 10PX;
+  border: 2px solid;
+  display: flex;
+  border-radius: 100px;
+  background: black;
+}
+.formStyle{
+  display: flex;
+ align-items: center;
+ 
+}
+ 
+button {
+  background: linear-gradient(#00398f, #03929c);
+  color: antiquewhite;
+  padding: 8px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+}
+ 
+button:hover {
+  border: 1px solid white;
+  background: black;
+  cursor: pointer;
+  color: white;
+}
+ 
+input[type=text] {
+  width: 200px;
+  border: solid 1PX white;
+  border-radius: 100px;
+  height: 30px;
+  
+  background: rgba(175, 175, 175, 0.39);
+  
+}
+input[type=text]:hover{
+  background: white;
+  color: black;
+}
+ 
+.itemStyle {
+  list-style-type: none;
+  padding: 5px;
+  width: 350px;
+  background: beige;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+ 
+.editBtn {
+  margin-left: 10px;
+}
+ 
+.submitEditBtn {
+ 
+  padding: 1;
+  height: 30px;
+}
+ 
+.itemText{
+  margin: 5px;
+  
+}
+input[type=checkbox]:checked+div{
+
+  text-decoration: line-through;
+  accent-color: black;
+}
+input[type=checkbox]{
+  accent-color: black;
+}
+
+.notes{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  width: 380px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
